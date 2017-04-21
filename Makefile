@@ -23,7 +23,7 @@ $(SQLITE_BASENAME).zip:
 	wget -N -c "$(SQLITE_URL)"
 
 clean:
-	rm -f "$(SQLITE_BASENAME).zip"
+	#rm -f "$(SQLITE_BASENAME).zip"
 	rm -rf "$(SQLITE_BASENAME)"
 	rm -rf build
 	rm -rf obj
